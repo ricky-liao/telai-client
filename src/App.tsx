@@ -5,14 +5,7 @@ import { io } from "socket.io-client";
 
 function App() {
 
-  const connect = () => {
-    const socket = io("http://localhost:9000");
-    
-  }
-
-  useEffect(() => {
-    connect();
-  }, [])
+  
 
   return (
     <div className="App">
